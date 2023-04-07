@@ -1,0 +1,29 @@
+.summary__section{
+    margin-top: 10rem;
+    height: 4%;
+    background-color: #ffe0b3;
+}
+
+.summary{
+    padding: 4rem 1rem;
+}
+
+
+.summary p:not(:last-child){
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.summary h1{
+    text-align: center;
+}
+
+.selected__items{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.grand__total{
+    font-size: 2rem;
+}

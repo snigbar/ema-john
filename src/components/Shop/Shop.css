@@ -1,0 +1,12 @@
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.shop__section{
+    padding: 10rem 3rem;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) );
+    gap:1rem;
+   
+}

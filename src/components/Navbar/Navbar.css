@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C2B35;
+    padding: 0 5rem;
+    
+}
+
+.navbar_links{
+    display:flex;
+    gap: 4rem;
+    list-style: none;
+    padding: 3rem;
+}
+
+.navbar_links a {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+}
