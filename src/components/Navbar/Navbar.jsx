@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/Logo.svg'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -11,12 +12,12 @@ export default function Navbar() {
 
        
             <ul className="navbar_links">
-                <li><a href="#">Order</a></li>
-                <li><a href="#">Order Review</a></li>
-                <li><a href="#">Manage Inventory</a></li>
-                <li><a href="#">Login</a></li>
+                <li><Link to="/">Shop</Link></li>
+                <li><Link to="/Orders">Orders</Link></li>
+                <li><Link to="/inventory">Inventory</Link></li>
+                <li><Link to="/login_page">Login</Link></li>
             </ul>
-      
+   
     </nav>
   )
 }

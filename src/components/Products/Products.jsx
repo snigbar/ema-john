@@ -4,6 +4,7 @@ import {faCartShopping} from '@fortawesome/free-solid-svg-icons'
 import "./Products.css"
 
 
+
 export default function Products(props) {
 
     if(props.product){
